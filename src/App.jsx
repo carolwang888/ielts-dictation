@@ -12,7 +12,7 @@ import ManageWords from './pages/ManageWords';
 function App() {
   return (
     <WordsProvider>
-      <BrowserRouter>
+     <BrowserRouter basename="/ielts-dictation">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
