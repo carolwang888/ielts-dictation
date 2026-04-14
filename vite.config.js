@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-base: '/ielts-dictation/ielts-dictation4.14/',
+base: '/ielts-dictation/',
 
   plugins: [react()],
   server: {
